@@ -1,4 +1,4 @@
-# Analysis of Social Media Usage: Predicting LinkedIn Activity with a Streamlit App
+# Analysis of Social Media Usage: Predicting LinkedIn Activity with a Streamlit App using Logistic Regression
 
 ## Introduction
 
