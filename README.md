@@ -1,4 +1,4 @@
-# Analysis of Social Media Usage: Predicting LinkedIn Activity
+# Analysis of Social Media Usage: Predicting LinkedIn Activity with a Streamlit App
 
 ## Introduction
 
@@ -39,11 +39,14 @@ The model's performance was assessed using accuracy, confusion matrix, precision
 ### Predictive Analysis
 
 The logistic regression model was applied to predict LinkedIn usage for hypothetical individuals with specified characteristics. This step illustrated the model's utility in real-world applications, demonstrating how demographic and social factors can influence the likelihood of LinkedIn activity.
+Upon obtaining user inputs, the app dynamically constructs a DataFrame matching the user's demographic profile and utilizes the logistic regression model to predict the user's likelihood of being a LinkedIn user, displaying the results immediately.
+### Implementation Details
+
+The Streamlit application starts with importing the necessary libraries and preprocessing the dataset in line with the initial analysis. The app layout is designed to gather user inputs through intuitive interfaces, covering income level, education, parental status, marital status, gender, and age.
 
 ## Conclusion
 
 The analysis of social media usage, focusing on LinkedIn, revealed several key findings. Firstly, demographic factors such as age, income, and education level significantly influence an individual's likelihood of using LinkedIn. Secondly, the logistic regression model provided a valuable tool for predicting LinkedIn activity, although its accuracy and predictive power are subject to the quality and comprehensiveness of the training data.
+This project not only offers insights into factors influencing LinkedIn usage but also demonstrates the application of data science techniques in analyzing social media trends. The integration of a Streamlit application further showcases the model's real-world applicability, bridging the gap between data science and end-user interaction. Through this innovative approach, users gain personalized insights, highlighting the practical utility of machine learning models in understanding and predicting social media behavior. 
 
-The study underscores the importance of understanding social media behaviors in the context of professional networking. Future research could expand on this analysis by incorporating additional variables, exploring other social media platforms, and employing more sophisticated machine learning techniques to enhance predictive accuracy.
-
-This report not only offers insights into the factors driving LinkedIn usage but also demonstrates the application of data science techniques in analyzing social media trends. The findings have implications for professionals seeking to optimize their online presence, as well as for businesses and recruiters aiming to leverage social media for talent acquisition and marketing strategies.
+[Visit the LinkedIn Usage Prediction App](https://linkedin-predictionpy-dhqejus5znxdwsxyb2gxtd.streamlit.app/)
