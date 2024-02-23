@@ -49,4 +49,5 @@ The Streamlit application starts with importing the necessary libraries and prep
 The analysis of social media usage, focusing on LinkedIn, revealed several key findings. Firstly, demographic factors such as age, income, and education level significantly influence an individual's likelihood of using LinkedIn. Secondly, the logistic regression model provided a valuable tool for predicting LinkedIn activity, although its accuracy and predictive power are subject to the quality and comprehensiveness of the training data.
 This project not only offers insights into factors influencing LinkedIn usage but also demonstrates the application of data science techniques in analyzing social media trends. The integration of a Streamlit application further showcases the model's real-world applicability, bridging the gap between data science and end-user interaction. Through this innovative approach, users gain personalized insights, highlighting the practical utility of machine learning models in understanding and predicting social media behavior. 
 
+
 [Visit the LinkedIn Usage Prediction App](https://linkedin-predictionpy-dhqejus5znxdwsxyb2gxtd.streamlit.app/)
