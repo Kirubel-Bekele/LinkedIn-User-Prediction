@@ -25,7 +25,6 @@ The cleaned dataset `ss` was analyzed to understand the distribution and charact
 #### Correlation Analysis
 
 A correlation matrix was constructed to identify potential relationships between LinkedIn usage and various demographic and social factors. This analysis aimed to uncover any significant predictors of LinkedIn activity within the dataset.
-![Correlation among all variables](/download (1).png)
 
 ### Logistic Regression Modeling
 
